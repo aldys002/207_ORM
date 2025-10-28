@@ -13,7 +13,7 @@ module.exports = (Sequelize, DataTypes) => {
             type: DataTypes.STRING,
         },
         author: {
-            type: DataTypes.SRING,
+            type: DataTypes.STRING,
         }
     });
     return Komik;
